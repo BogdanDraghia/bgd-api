@@ -1,0 +1,18 @@
+{
+	"name": "Node.js & Mongo DB",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"mongodb.mongodb-vscode" 
+			]
+		}
+	},
+	"features": {
+		"aws-cli": "latest"
+	}
+}

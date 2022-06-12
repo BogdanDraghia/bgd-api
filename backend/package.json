@@ -1,0 +1,26 @@
+{
+  "name": "bgd-api",
+  "version": "1.0.0",
+  "description": "Personal blog/portofolio REST-api and panel",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BogdanDraghia/bgd-api.git"
+  },
+  "author": "Bogdan Draghia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BogdanDraghia/bgd-api/issues"
+  },
+  "homepage": "https://github.com/BogdanDraghia/bgd-api#readme",
+  "devDependencies": {
+    "express": "^4.18.1"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
